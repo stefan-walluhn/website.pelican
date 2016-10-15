@@ -4,11 +4,12 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Stefan'
 SITENAME = u'Stefan Walluhn'
+SITESUBTITLE = u'Systemadministrator'
 SITEURL = ''
 
 PATH = 'content'
 
-TIMEZONE = 'Europe/Paris'
+TIMEZONE = 'Europe/Berlin'
 
 DEFAULT_LANG = u'de'
 
@@ -20,15 +21,20 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+LINKS = (('Neuland.io', 'http://www.neuland.io/'),
+         ('Terminal.21', 'http://www.terminal21.de/'),
+         ('Radio Corax', 'http://www.radiocorax.de/'),
+         ('Eigenbaukombinat', 'http://www.eigenbaukombinat.de'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('Github', 'https://github.com/stefan-walluhn'),
+          ('code.neuland.io', 'https://code.neuland.io/u/stefan'),)
 
 DEFAULT_PAGINATION = 10
 
 RELATIVE_URLS = True
+
+THEME = 'nest'
+NEST_CSS_MINIFY = True
+MENUITEMS = [('Homepage', '/'),('Categories','/categories.html')]
+NEST_SITEMAP_MENU = [('Archives', '/archives.html'),('Tags','/tags.html'), ('Categories','/categories.html')]
