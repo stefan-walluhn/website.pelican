@@ -36,5 +36,9 @@ RELATIVE_URLS = True
 
 THEME = 'nest'
 NEST_CSS_MINIFY = True
-MENUITEMS = [('Homepage', '/'),('Categories','/categories.html')]
 NEST_SITEMAP_MENU = [('Archives', '/archives.html'),('Tags','/tags.html'), ('Categories','/categories.html')]
+STATIC_PATHS = ['images', 'extra/favicon.ico', 'extra/logo.svg']
+EXTRA_PATH_METADATA = {
+    'extra/favicon.ico': {'path': 'favicon.ico'},
+    'extra/logo.svg': {'path': 'logo.svg'}
+}
