@@ -5,7 +5,7 @@ from __future__ import unicode_literals
 AUTHOR = u'Stefan'
 SITENAME = u'Stefan Walluhn'
 SITESUBTITLE = u'Systemadministrator'
-SITEURL = ''
+SITEURL = 'https://stefan.walluhn.de'
 
 PATH = 'content'
 
@@ -14,7 +14,8 @@ TIMEZONE = 'Europe/Berlin'
 DEFAULT_LANG = u'de'
 
 # Feed generation is usually not desired when developing
-FEED_ALL_ATOM = None
+FEED_ALL_ATOM = 'feeds/all.atom'
+FEED_ALL_RSS = 'feeds/all.rss'
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
