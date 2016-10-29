@@ -35,8 +35,9 @@ SSH den ganzen Krempel zu pushen. Und das geht so:
 
 ## Schreiben
 
-Einfach vim aufmachen und eine Markdown-formatierte Textdatei schreiben.
-Meta-Daten in die Kopfzeile dumpen, speichern, fertig.
+Einfach vim aufmachen und eine [Markdown-formatierte
+Textdatei](https://raw.githubusercontent.com/stefan-walluhn/website.pelican/63dad4325cc9b3cf216912cb084d267b642f5861/content/blog/blogging_hard.md)
+schreiben. Meta-Daten in die Kopfzeile dumpen, speichern, fertig.
 
 ## Speichern
 
